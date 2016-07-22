@@ -1,0 +1,11 @@
+#include<stdio.h>
+int test1()
+{
+	float num = 100;
+	if(num > 90)
+	{
+		printf("Invalid num: %f", num);
+		return 2;
+	}
+	return 0;
+}

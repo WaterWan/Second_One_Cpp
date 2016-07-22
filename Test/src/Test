@@ -1,0 +1,36 @@
+//============================================================================
+// Name        : Test.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <stdio.h>
+
+int test() {
+	freopen("E:/Second_One_Cpp/Test/Debug/1.txt", "r", stdin);
+	freopen("E:/Second_One_Cpp/Test/Debug/3.txt", "w", stdout);
+	freopen("E:/Second_One_Cpp/Test/Debug/4.txt", "w", stderr);
+	float latitude;
+	float longitude;
+	char info[80];
+	int started = 0;
+	puts("data=[");
+	while (scanf("%f,%f,%79[^\n]", &latitude, &longitude, info) == 3) {
+		if (started) {
+			printf(",\n");
+		}else {
+			started = 1;
+		}
+		if(latitude > 90)
+		{
+			fprintf(stderr, "Invalid latitude: %f", latitude);
+			puts("]");
+			return 2;
+		}
+		printf("{latitude: %f, longitude: %f, info: '%s'}",latitude, longitude, info);
+	}
+	puts("\n]");
+	return 0;
+}

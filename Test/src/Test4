@@ -1,0 +1,14 @@
+#include<iostream>
+#include<cstdlib>
+using namespace std;
+int main(){
+	for (int i = 3; i > -4; i--) {
+			for (int j = 0; j < abs(i); j++) {
+				cout << " ";
+			}
+			for (int j = 3 - abs(i); j >= abs(i) - 3; j--) {
+				cout << abs(j) + 1;
+			}
+			cout << endl;
+		}
+}
