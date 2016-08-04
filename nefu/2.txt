@@ -1,0 +1,111 @@
+Book:  0 0 0 0 0 0 
+Visit: 0 0 0 0 0 0 
+
+m: 0
+i: 0
+Book:  1 0 0 0 0 0 
+Visit: 1 0 0 0 0 0 
+
+m: 1
+i: 0
+i: 1
+Book:  1 2 0 0 0 0 
+Visit: 1 1 0 0 0 0 
+
+m: 2
+i: 0
+i: 1
+i: 2
+i: 3
+i: 4
+i: 5
+Warning!!!
+m: 1
+i: 2
+Book:  1 3 0 0 0 0 
+Visit: 1 0 1 0 0 0 
+
+m: 2
+i: 0
+i: 1
+Book:  1 3 2 0 0 0 
+Visit: 1 1 1 0 0 0 
+
+m: 3
+i: 0
+i: 1
+i: 2
+i: 3
+i: 4
+Book:  1 3 2 5 0 0 
+Visit: 1 1 1 0 1 0 
+
+m: 4
+i: 0
+i: 1
+i: 2
+i: 3
+i: 4
+i: 5
+Book:  1 3 2 5 6 0 
+Visit: 1 1 1 0 1 1 
+
+m: 5
+i: 0
+i: 1
+i: 2
+i: 3
+i: 4
+i: 5
+Warning!!!
+m: 4
+Warning!!!
+m: 3
+i: 5
+Warning!!!
+m: 2
+i: 2
+i: 3
+i: 4
+i: 5
+Warning!!!
+m: 1
+i: 3
+Book:  1 4 2 5 6 0 
+Visit: 1 0 0 1 0 0 
+
+m: 2
+i: 0
+i: 1
+Book:  1 4 2 5 6 0 
+Visit: 1 1 0 1 0 0 
+
+m: 3
+i: 0
+i: 1
+i: 2
+i: 3
+i: 4
+Book:  1 4 2 5 6 0 
+Visit: 1 1 0 1 1 0 
+
+m: 4
+i: 0
+i: 1
+i: 2
+i: 3
+i: 4
+i: 5
+Book:  1 4 2 5 6 0 
+Visit: 1 1 0 1 1 1 
+
+m: 5
+i: 0
+i: 1
+i: 2
+Book:  1 4 2 5 6 3 
+Visit: 1 1 1 1 1 1 
+
+m: 6
+result
+1 4 2 5 6 3
